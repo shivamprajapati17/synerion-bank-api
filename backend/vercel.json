@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "public": false,
-  "buildCommand": null,
-  "outputDirectory": null,
   "functions": {
     "src/index.js": {
       "memory": 256,
