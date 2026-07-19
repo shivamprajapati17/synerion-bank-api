@@ -93,7 +93,7 @@ const startServer = async () => {
     console.log(`  Port:        ${PORT}`);
     console.log(`  Environment: ${process.env.NODE_ENV || 'development'}`);
     console.log(`  Database:    ${dbConnected ? 'Connected' : 'Not Connected'}`);
-    console.log(`  CORS Origin: ${process.env.CORS_ORIGIN || 'http://localhost:3000'}`);
+    console.log(`  CORS Origin: ${process.env.CORS_ORIGIN || 'All Origins (origin: true)'}`);
     console.log('============================================');
   });
 };
